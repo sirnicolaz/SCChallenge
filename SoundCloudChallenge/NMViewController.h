@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "NMLoginViewController.h"
 
-@interface NMViewController : UIViewController<NMLoginDelegate>
+@interface NMViewController : UIViewController
 
 @end

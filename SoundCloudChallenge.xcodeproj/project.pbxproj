@@ -31,8 +31,12 @@
 		D7C5075717245A52008CFA14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5075617245A52008CFA14 /* CoreData.framework */; };
 		D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
 		D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
-		D7C5075D172460CB008CFA14 /* NMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */; };
-		D7C5075E172460CB008CFA14 /* NMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */; };
+		D7C507621724844A008CFA14 /* NMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C507611724844A008CFA14 /* NMLoginView.m */; };
+		D7C507631724844A008CFA14 /* NMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C507611724844A008CFA14 /* NMLoginView.m */; };
+		D7C5076517248472008CFA14 /* NMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5076417248472008CFA14 /* NMLoginView.xib */; };
+		D7C5076617248472008CFA14 /* NMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5076417248472008CFA14 /* NMLoginView.xib */; };
+		D7C5076C172484EA008CFA14 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076B172484EA008CFA14 /* UIView+Additions.m */; };
+		D7C5076D172484EA008CFA14 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076B172484EA008CFA14 /* UIView+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +80,12 @@
 		D7C5075617245A52008CFA14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D7C50758172460CB008CFA14 /* NMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLoginViewController.h; sourceTree = "<group>"; };
 		D7C50759172460CB008CFA14 /* NMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLoginViewController.m; sourceTree = "<group>"; };
-		D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMLoginViewController.xib; sourceTree = "<group>"; };
 		D7C5075F17246217008CFA14 /* NMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMMacro.h; sourceTree = "<group>"; };
+		D7C507601724844A008CFA14 /* NMLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLoginView.h; sourceTree = "<group>"; };
+		D7C507611724844A008CFA14 /* NMLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLoginView.m; sourceTree = "<group>"; };
+		D7C5076417248472008CFA14 /* NMLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMLoginView.xib; sourceTree = "<group>"; };
+		D7C5076A172484EA008CFA14 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		D7C5076B172484EA008CFA14 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,7 @@
 		D7C5064B17202030008CFA14 /* SoundCloudChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D7C50769172484C2008CFA14 /* Categories */,
 				D7C50682172023A3008CFA14 /* Controller */,
 				D7C506811720239E008CFA14 /* View */,
 				D7C5068017202398008CFA14 /* Model */,
@@ -199,8 +208,10 @@
 		D7C506811720239E008CFA14 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */,
 				D7C5066017202031008CFA14 /* NMViewController.xib */,
+				D7C507601724844A008CFA14 /* NMLoginView.h */,
+				D7C507611724844A008CFA14 /* NMLoginView.m */,
+				D7C5076417248472008CFA14 /* NMLoginView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -214,6 +225,15 @@
 				D7C50759172460CB008CFA14 /* NMLoginViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		D7C50769172484C2008CFA14 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5076A172484EA008CFA14 /* UIView+Additions.h */,
+				D7C5076B172484EA008CFA14 /* UIView+Additions.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +314,7 @@
 				D7C5065A17202031008CFA14 /* Default@2x.png in Resources */,
 				D7C5065C17202031008CFA14 /* Default-568h@2x.png in Resources */,
 				D7C5066217202031008CFA14 /* NMViewController.xib in Resources */,
-				D7C5075D172460CB008CFA14 /* NMLoginViewController.xib in Resources */,
+				D7C5076517248472008CFA14 /* NMLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C5067417202031008CFA14 /* InfoPlist.strings in Resources */,
-				D7C5075E172460CB008CFA14 /* NMLoginViewController.xib in Resources */,
+				D7C5076617248472008CFA14 /* NMLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +370,8 @@
 				D7C50685172023CC008CFA14 /* NMTrack.m in Sources */,
 				D7C506891720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
 				D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */,
+				D7C507621724844A008CFA14 /* NMLoginView.m in Sources */,
+				D7C5076C172484EA008CFA14 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +383,8 @@
 				D7C50686172023CC008CFA14 /* NMTrack.m in Sources */,
 				D7C5068A1720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
 				D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */,
+				D7C507631724844A008CFA14 /* NMLoginView.m in Sources */,
+				D7C5076D172484EA008CFA14 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
