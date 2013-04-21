@@ -7,10 +7,16 @@
 //
 
 #import "NMAppDelegate.h"
-
 #import "NMViewController.h"
 
 @implementation NMAppDelegate
+
++ (void) initialize
+{
+    [SCSoundCloud setClientID:@"73acce6b45f5fdc36d5bc1b17871b25c"
+                       secret:@"511031ce2ec487fd7c5ed14f202106d0"
+                  redirectURL:[NSURL URLWithString:@"soundcloudchallenge://oauth"]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -19,6 +25,7 @@
     self.viewController = [[NMViewController alloc] initWithNibName:@"NMViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

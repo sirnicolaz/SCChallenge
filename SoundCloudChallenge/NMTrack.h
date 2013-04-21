@@ -1,5 +1,5 @@
 //
-//  NMViewController.h
+//  NMTrack.h
 //  SoundCloudChallenge
 //
 //  Created by Nicola Miotto on 4/18/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NMLoginViewController.h"
 
-@interface NMViewController : UIViewController<NMLoginDelegate>
+@interface NMTrack : NSManagedObject
 
 @end

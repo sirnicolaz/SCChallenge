@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77035C6CC1F4495894A45362 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F8FB5104BC444285926F9B /* libPods.a */; };
 		D7C5064617202030008CFA14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064517202030008CFA14 /* UIKit.framework */; };
 		D7C5064817202030008CFA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064717202030008CFA14 /* Foundation.framework */; };
 		D7C5064A17202030008CFA14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064917202030008CFA14 /* CoreGraphics.framework */; };
@@ -23,6 +24,15 @@
 		D7C5066C17202031008CFA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064717202030008CFA14 /* Foundation.framework */; };
 		D7C5067417202031008CFA14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C5067217202031008CFA14 /* InfoPlist.strings */; };
 		D7C5067717202031008CFA14 /* SoundCloudChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5067617202031008CFA14 /* SoundCloudChallengeTests.m */; };
+		D7C50685172023CC008CFA14 /* NMTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50684172023CC008CFA14 /* NMTrack.m */; };
+		D7C50686172023CC008CFA14 /* NMTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50684172023CC008CFA14 /* NMTrack.m */; };
+		D7C506891720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */; };
+		D7C5068A1720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */; };
+		D7C5075717245A52008CFA14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5075617245A52008CFA14 /* CoreData.framework */; };
+		D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
+		D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
+		D7C5075D172460CB008CFA14 /* NMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */; };
+		D7C5075E172460CB008CFA14 /* NMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43F8FB5104BC444285926F9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CB8ABBE40740FC862B0103 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D7C5064217202030008CFA14 /* SoundCloudChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloudChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C5064517202030008CFA14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7C5064717202030008CFA14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +70,14 @@
 		D7C5067317202031008CFA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7C5067517202031008CFA14 /* SoundCloudChallengeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundCloudChallengeTests.h; sourceTree = "<group>"; };
 		D7C5067617202031008CFA14 /* SoundCloudChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundCloudChallengeTests.m; sourceTree = "<group>"; };
+		D7C50683172023CC008CFA14 /* NMTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTrack.h; sourceTree = "<group>"; };
+		D7C50684172023CC008CFA14 /* NMTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTrack.m; sourceTree = "<group>"; };
+		D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundCloudChallenge.xcdatamodel; sourceTree = "<group>"; };
+		D7C5075617245A52008CFA14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D7C50758172460CB008CFA14 /* NMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLoginViewController.h; sourceTree = "<group>"; };
+		D7C50759172460CB008CFA14 /* NMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLoginViewController.m; sourceTree = "<group>"; };
+		D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMLoginViewController.xib; sourceTree = "<group>"; };
+		D7C5075F17246217008CFA14 /* NMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C5075717245A52008CFA14 /* CoreData.framework in Frameworks */,
 				D7C5064617202030008CFA14 /* UIKit.framework in Frameworks */,
 				D7C5064817202030008CFA14 /* Foundation.framework in Frameworks */,
 				D7C5064A17202030008CFA14 /* CoreGraphics.framework in Frameworks */,
+				77035C6CC1F4495894A45362 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +113,7 @@
 				D7C5066F17202031008CFA14 /* SoundCloudChallengeTests */,
 				D7C5064417202030008CFA14 /* Frameworks */,
 				D7C5064317202030008CFA14 /* Products */,
+				A2CB8ABBE40740FC862B0103 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +129,12 @@
 		D7C5064417202030008CFA14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7C5075617245A52008CFA14 /* CoreData.framework */,
 				D7C5064517202030008CFA14 /* UIKit.framework */,
 				D7C5064717202030008CFA14 /* Foundation.framework */,
 				D7C5064917202030008CFA14 /* CoreGraphics.framework */,
 				D7C5066917202031008CFA14 /* SenTestingKit.framework */,
+				43F8FB5104BC444285926F9B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +142,11 @@
 		D7C5064B17202030008CFA14 /* SoundCloudChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D7C50682172023A3008CFA14 /* Controller */,
+				D7C506811720239E008CFA14 /* View */,
+				D7C5068017202398008CFA14 /* Model */,
 				D7C5065417202031008CFA14 /* NMAppDelegate.h */,
 				D7C5065517202031008CFA14 /* NMAppDelegate.m */,
-				D7C5065D17202031008CFA14 /* NMViewController.h */,
-				D7C5065E17202031008CFA14 /* NMViewController.m */,
-				D7C5066017202031008CFA14 /* NMViewController.xib */,
 				D7C5064C17202030008CFA14 /* Supporting Files */,
 			);
 			path = SoundCloudChallenge;
@@ -137,6 +162,7 @@
 				D7C5065717202031008CFA14 /* Default.png */,
 				D7C5065917202031008CFA14 /* Default@2x.png */,
 				D7C5065B17202031008CFA14 /* Default-568h@2x.png */,
+				D7C5075F17246217008CFA14 /* NMMacro.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +186,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7C5068017202398008CFA14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7C50683172023CC008CFA14 /* NMTrack.h */,
+				D7C50684172023CC008CFA14 /* NMTrack.m */,
+				D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D7C506811720239E008CFA14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5075A172460CB008CFA14 /* NMLoginViewController.xib */,
+				D7C5066017202031008CFA14 /* NMViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D7C50682172023A3008CFA14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5065D17202031008CFA14 /* NMViewController.h */,
+				D7C5065E17202031008CFA14 /* NMViewController.m */,
+				D7C50758172460CB008CFA14 /* NMLoginViewController.h */,
+				D7C50759172460CB008CFA14 /* NMLoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +226,7 @@
 				D7C5063E17202030008CFA14 /* Sources */,
 				D7C5063F17202030008CFA14 /* Frameworks */,
 				D7C5064017202030008CFA14 /* Resources */,
+				62099EFBE6F6428C946EE6DD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +294,7 @@
 				D7C5065A17202031008CFA14 /* Default@2x.png in Resources */,
 				D7C5065C17202031008CFA14 /* Default-568h@2x.png in Resources */,
 				D7C5066217202031008CFA14 /* NMViewController.xib in Resources */,
+				D7C5075D172460CB008CFA14 /* NMLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,12 +303,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C5067417202031008CFA14 /* InfoPlist.strings in Resources */,
+				D7C5075E172460CB008CFA14 /* NMLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		62099EFBE6F6428C946EE6DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		D7C5066617202031008CFA14 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +347,9 @@
 				D7C5065217202031008CFA14 /* main.m in Sources */,
 				D7C5065617202031008CFA14 /* NMAppDelegate.m in Sources */,
 				D7C5065F17202031008CFA14 /* NMViewController.m in Sources */,
+				D7C50685172023CC008CFA14 /* NMTrack.m in Sources */,
+				D7C506891720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
+				D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C5067717202031008CFA14 /* SoundCloudChallengeTests.m in Sources */,
+				D7C50686172023CC008CFA14 /* NMTrack.m in Sources */,
+				D7C5068A1720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
+				D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +427,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -372,7 +451,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -381,6 +460,7 @@
 		};
 		D7C5067B17202031008CFA14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CB8ABBE40740FC862B0103 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundCloudChallenge/SoundCloudChallenge-Prefix.pch";
@@ -392,6 +472,7 @@
 		};
 		D7C5067C17202031008CFA14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CB8ABBE40740FC862B0103 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundCloudChallenge/SoundCloudChallenge-Prefix.pch";
@@ -454,6 +535,7 @@
 				D7C5067C17202031008CFA14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C5067D17202031008CFA14 /* Build configuration list for PBXNativeTarget "SoundCloudChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,8 +544,22 @@
 				D7C5067F17202031008CFA14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */,
+			);
+			currentVersion = D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */;
+			path = SoundCloudChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D7C5063A17202030008CFA14 /* Project object */;
 }
