@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NMLoginViewController.h"
 
 @class NMTracksTableDataSource;
 
-@interface NMViewController : UIViewController<UITableViewDelegate>
+@interface NMTracksViewController : UIViewController<UITableViewDelegate>
 
 @property UITableView               *tableView;
 @property NMTracksTableDataSource   *dataSource;

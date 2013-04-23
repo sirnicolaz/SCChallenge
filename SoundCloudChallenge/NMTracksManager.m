@@ -11,19 +11,23 @@
 
 @implementation NMTracksManager
 
+- (NMTrack *)buildTrackWithJSONDictionary:(NSDictionary *)trackDict
+{
+    NMTrack *track = [NMTrack new];
+    track.identifier = [trackDict[kNMSoundCloudKeyTrackIdentifier] intValue];
+    track.title = trackDict[kNMSoundCloudKeyTrackTitle];
+    track.waveFormURL = URL(trackDict[kNMSoundCloudKeyTrackWaveURL]);
+    track.createdAt = [NSDate dateWithString:trackDict[kNMSoundCloudKeyTrackDate]
+                                      format:kNMSoundCloudAPIDateFormat];
+    
+    return track;
+}
+
 - (NSArray *)buildTracksWithJSONArray:(NSArray *)JSONArray
 {
     NSMutableArray *tracks = [NSMutableArray new];
     for (NSDictionary *trackDict in JSONArray) {
-        
-        NMTrack *track = [NMTrack new];
-        track.identifier = [trackDict[kNMSoundCloudKeyTrackIdentifier] intValue];
-        track.title = trackDict[kNMSoundCloudKeyTrackTitle];
-        track.waveFormURL = URL(trackDict[kNMSoundCloudKeyTrackWaveURL]);
-        track.createdAt = [NSDate dateWithString:trackDict[kNMSoundCloudKeyTrackDate]
-                                          format:kNMSoundCloudAPIDateFormat];
-        
-        [tracks addObject:track];
+       [tracks addObject:[self buildTrackWithJSONDictionary:trackDict]];
     }
     
     return tracks;

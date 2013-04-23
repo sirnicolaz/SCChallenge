@@ -7,7 +7,7 @@
 //
 
 #import "NMAppDelegate.h"
-#import "NMViewController.h"
+#import "NMTracksViewController.h"
 
 @implementation NMAppDelegate
 
@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:
-                                 [[NMViewController alloc] initWithNibName:@"NMViewController"
+                                 [[NMTracksViewController alloc] initWithNibName:@"NMViewController"
                                                                     bundle:nil]];
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.window.rootViewController = self.navigationController;

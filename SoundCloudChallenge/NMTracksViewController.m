@@ -6,17 +6,17 @@
 //  Copyright (c) 2013 Nicola Miotto. All rights reserved.
 //
 
-#import "NMViewController.h"
+#import "NMTracksViewController.h"
 #import "NMLoginView.h"
 #import "NMTracksTableDataSource.h"
 
-#define kNMTracksLimit 4
+#define kNMTracksLimit 24
 
-@interface NMViewController ()
+@interface NMTracksViewController ()
 
 @end
 
-@implementation NMViewController
+@implementation NMTracksViewController
 {
     NMLoginView             *__loginView;
     NMTracksManager         *__manager;

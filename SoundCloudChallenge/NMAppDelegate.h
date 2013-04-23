@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class NMViewController;
+@class NMTracksViewController;
 
 @interface NMAppDelegate : UIResponder <UIApplicationDelegate>
 

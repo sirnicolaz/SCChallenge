@@ -14,6 +14,8 @@
                     format:(NSString *)format
 {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setCalendar:[NSCalendar currentCalendar]];
+    [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
     [formatter setDateFormat:format];
     
     return [formatter dateFromString:dateString];
@@ -21,9 +23,11 @@
 
 - (NSString *)stringValueWithFormat:(NSString *)format
 {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:format];
-    NSString *strDate = [dateFormatter stringFromDate:self];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setCalendar:[NSCalendar currentCalendar]];
+    [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
+    [formatter setDateFormat:format];
+    NSString *strDate = [formatter stringFromDate:self];
     
     return strDate;
 }

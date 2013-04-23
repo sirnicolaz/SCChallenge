@@ -12,6 +12,7 @@ typedef void (^FetchResultBlock) (NSArray *tracks, NSError *error);
 
 @interface NMTracksManager : NSObject
 
+- (NMTrack *)buildTrackWithJSONDictionary:(NSDictionary *)trackDict;
 - (NSArray *)buildTracksWithJSONArray:(NSArray *)JSONArray;
 
 - (void)fetchTracksWithOffset:(NSInteger)offset
