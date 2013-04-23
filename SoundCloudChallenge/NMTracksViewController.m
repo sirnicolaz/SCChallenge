@@ -253,7 +253,9 @@
         [app openURL:soundcloudURL];
     }
     else {
-        [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"SoundCloud not found", nil) message:NSLocalizedString(@"You need to install the SoundCloud app in order to listen to you tracks.", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
+        NSString *player = @"https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F";
+        NSString *httpSoundcloud = [NSString stringWithFormat:@"%@%d",player, track.identifier];
+        [app openURL:URL(httpSoundcloud)];
     }
 }
 
