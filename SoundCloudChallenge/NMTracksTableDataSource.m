@@ -32,9 +32,13 @@
     NMImageManager *manager = [NMImageManager new];
     UIImage *image = [manager imageForURL:track.waveFormURL];
     if (image) {
+        // If there is a cached image, no need to refetch
         cell.waveFormImage.image = image;
     }
     else {
+        // If the image has not been fetched, add the background fetching operation
+        // to the cell, so if the operation is still in progress when the view is
+        // reused, we can stop it manually to avoid congestions
         cell.backgroundOperation = [NSBlockOperation blockOperationWithBlock:^{
             [manager fetchImageForURL:track.waveFormURL
                             withBlock:^(UIImage *image) {

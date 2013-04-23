@@ -29,15 +29,19 @@
 		D7597A301725F48C00FE05AE /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */; };
 		D7597A331726108B00FE05AE /* NMTracksManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A321726108B00FE05AE /* NMTracksManagerTest.m */; };
 		D7597A36172616F100FE05AE /* NMImageManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A35172616F100FE05AE /* NMImageManagerTest.m */; };
+		D7597A3D17261DC700FE05AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A3817261DC700FE05AE /* Default-568h@2x.png */; };
+		D7597A3E17261DC700FE05AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A3917261DC700FE05AE /* Default.png */; };
+		D7597A3F17261DC700FE05AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A3A17261DC700FE05AE /* Default@2x.png */; };
+		D7597A4017261DC700FE05AE /* soundcloud_challenge.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A3B17261DC700FE05AE /* soundcloud_challenge.png */; };
+		D7597A4117261DC700FE05AE /* soundcloud_challenge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A3C17261DC700FE05AE /* soundcloud_challenge@2x.png */; };
+		D7597A4417261EFA00FE05AE /* btn_login.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A4217261EFA00FE05AE /* btn_login.png */; };
+		D7597A4517261EFA00FE05AE /* btn_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7597A4317261EFA00FE05AE /* btn_login@2x.png */; };
 		D7C5064617202030008CFA14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064517202030008CFA14 /* UIKit.framework */; };
 		D7C5064817202030008CFA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064717202030008CFA14 /* Foundation.framework */; };
 		D7C5064A17202030008CFA14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064917202030008CFA14 /* CoreGraphics.framework */; };
 		D7C5065017202030008CFA14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C5064E17202030008CFA14 /* InfoPlist.strings */; };
 		D7C5065217202031008CFA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5065117202031008CFA14 /* main.m */; };
 		D7C5065617202031008CFA14 /* NMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5065517202031008CFA14 /* NMAppDelegate.m */; };
-		D7C5065817202031008CFA14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C5065717202031008CFA14 /* Default.png */; };
-		D7C5065A17202031008CFA14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C5065917202031008CFA14 /* Default@2x.png */; };
-		D7C5065C17202031008CFA14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C5065B17202031008CFA14 /* Default-568h@2x.png */; };
 		D7C5065F17202031008CFA14 /* NMTracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5065E17202031008CFA14 /* NMTracksViewController.m */; };
 		D7C5066217202031008CFA14 /* NMTracksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5066017202031008CFA14 /* NMTracksViewController.xib */; };
 		D7C5066A17202031008CFA14 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5066917202031008CFA14 /* SenTestingKit.framework */; };
@@ -92,6 +96,13 @@
 		D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		D7597A321726108B00FE05AE /* NMTracksManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTracksManagerTest.m; sourceTree = "<group>"; };
 		D7597A35172616F100FE05AE /* NMImageManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMImageManagerTest.m; sourceTree = "<group>"; };
+		D7597A3817261DC700FE05AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D7597A3917261DC700FE05AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D7597A3A17261DC700FE05AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D7597A3B17261DC700FE05AE /* soundcloud_challenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundcloud_challenge.png; sourceTree = "<group>"; };
+		D7597A3C17261DC700FE05AE /* soundcloud_challenge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundcloud_challenge@2x.png"; sourceTree = "<group>"; };
+		D7597A4217261EFA00FE05AE /* btn_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_login.png; sourceTree = "<group>"; };
+		D7597A4317261EFA00FE05AE /* btn_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_login@2x.png"; sourceTree = "<group>"; };
 		D7C5064217202030008CFA14 /* SoundCloudChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloudChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C5064517202030008CFA14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7C5064717202030008CFA14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,9 +113,6 @@
 		D7C5065317202031008CFA14 /* SoundCloudChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundCloudChallenge-Prefix.pch"; sourceTree = "<group>"; };
 		D7C5065417202031008CFA14 /* NMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMAppDelegate.h; sourceTree = "<group>"; };
 		D7C5065517202031008CFA14 /* NMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMAppDelegate.m; sourceTree = "<group>"; };
-		D7C5065717202031008CFA14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D7C5065917202031008CFA14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D7C5065B17202031008CFA14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D7C5065D17202031008CFA14 /* NMTracksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMTracksViewController.h; sourceTree = "<group>"; };
 		D7C5065E17202031008CFA14 /* NMTracksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMTracksViewController.m; sourceTree = "<group>"; };
 		D7C5066117202031008CFA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NMTracksViewController.xib; sourceTree = "<group>"; };
@@ -152,6 +160,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7597A3717261DC700FE05AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7597A4217261EFA00FE05AE /* btn_login.png */,
+				D7597A4317261EFA00FE05AE /* btn_login@2x.png */,
+				D7597A3817261DC700FE05AE /* Default-568h@2x.png */,
+				D7597A3917261DC700FE05AE /* Default.png */,
+				D7597A3A17261DC700FE05AE /* Default@2x.png */,
+				D7597A3B17261DC700FE05AE /* soundcloud_challenge.png */,
+				D7597A3C17261DC700FE05AE /* soundcloud_challenge@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D7C5063917202030008CFA14 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +218,7 @@
 				D7C5068017202398008CFA14 /* Model */,
 				D7C5065417202031008CFA14 /* NMAppDelegate.h */,
 				D7C5065517202031008CFA14 /* NMAppDelegate.m */,
+				D7597A3717261DC700FE05AE /* Resources */,
 				D7C5064C17202030008CFA14 /* Supporting Files */,
 			);
 			path = SoundCloudChallenge;
@@ -208,9 +231,6 @@
 				D7C5064E17202030008CFA14 /* InfoPlist.strings */,
 				D7C5065117202031008CFA14 /* main.m */,
 				D7C5065317202031008CFA14 /* SoundCloudChallenge-Prefix.pch */,
-				D7C5065717202031008CFA14 /* Default.png */,
-				D7C5065917202031008CFA14 /* Default@2x.png */,
-				D7C5065B17202031008CFA14 /* Default-568h@2x.png */,
 				D7C5075F17246217008CFA14 /* NMMacro.h */,
 			);
 			name = "Supporting Files";
@@ -368,12 +388,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C5065017202030008CFA14 /* InfoPlist.strings in Resources */,
-				D7C5065817202031008CFA14 /* Default.png in Resources */,
-				D7C5065A17202031008CFA14 /* Default@2x.png in Resources */,
-				D7C5065C17202031008CFA14 /* Default-568h@2x.png in Resources */,
 				D7C5066217202031008CFA14 /* NMTracksViewController.xib in Resources */,
 				D7C5076517248472008CFA14 /* NMLoginView.xib in Resources */,
 				D7597A231725E2D400FE05AE /* NMTrackCell.xib in Resources */,
+				D7597A3D17261DC700FE05AE /* Default-568h@2x.png in Resources */,
+				D7597A3E17261DC700FE05AE /* Default.png in Resources */,
+				D7597A3F17261DC700FE05AE /* Default@2x.png in Resources */,
+				D7597A4017261DC700FE05AE /* soundcloud_challenge.png in Resources */,
+				D7597A4117261DC700FE05AE /* soundcloud_challenge@2x.png in Resources */,
+				D7597A4417261EFA00FE05AE /* btn_login.png in Resources */,
+				D7597A4517261EFA00FE05AE /* btn_login@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

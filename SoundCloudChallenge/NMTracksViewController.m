@@ -81,6 +81,7 @@
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.tableView.rowHeight = 126;
+    self.tableView.backgroundColor = SoundCloudGrey;
     self.tableView.dataSource = self.dataSource;
     self.tableView.delegate = self;
     
@@ -120,6 +121,10 @@
         
         // Set title
         [self setupTitle:NSLocalizedString(@"Logged in as", nil) withSubTitle:[SCSoundCloud account].identifier];
+        
+        // Setup logout button
+        UIBarButtonItem *logoutButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Logout", nil) style:UIBarButtonItemStylePlain target:self action:@selector(logout:)];
+        self.navigationItem.leftBarButtonItem = logoutButton;
     }
     else {
         [self.tableView removeFromSuperview];
@@ -131,6 +136,9 @@
         
         // Set title
         [self setupTitle:NSLocalizedString(@"Not authenticated", nil) withSubTitle:NSLocalizedString(@"tap the login button to authenticate", nil)];
+        
+        // Remove logout button
+        self.navigationItem.leftBarButtonItem = nil;
     }
 }
 
@@ -140,6 +148,13 @@
 {
     FetchResultBlock handler;
     handler = ^(NSArray *tracks, NSError *error){
+        
+        if (error) {
+            [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", nil) message:NSLocalizedString(@"An error has occurred, check your internet connection", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
+            
+            return;
+        }
+        
         if (tracks.count == 0) {
             __allLoaded = YES;
             self.tableView.tableFooterView = nil;
@@ -218,10 +233,18 @@
     }];
 }
 
+- (void)logout:(id)sender
+{
+    [SCSoundCloud removeAccess];
+    [self handleAuthentication];
+}
+
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     UIApplication *app = [UIApplication sharedApplication];
     NMTrack *track = [self.dataSource.tracks objectAtIndex:indexPath.row];
     NSString *soundCloudURLString = [NSString stringWithFormat:@"soundcloud:tracks:%d", track.identifier];

@@ -21,6 +21,11 @@ NSString *const kNMTrackCellReusableIdentifier = @"NMTrackCell";
     return self;
 }
 
+- (void)awakeFromNib
+{
+    self.selectionStyle = UITableViewCellSelectionStyleGray;
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
