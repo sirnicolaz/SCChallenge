@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:
-                                 [[NMTracksViewController alloc] initWithNibName:@"NMViewController"
+                                 [[NMTracksViewController alloc] initWithNibName:@"NMTracksViewController"
                                                                     bundle:nil]];
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.window.rootViewController = self.navigationController;

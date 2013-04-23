@@ -50,14 +50,18 @@ static NSCache *cache;
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
     UIImage *image = [[UIImage alloc] initWithData:data];
-    CGRect topHalf = CGRectMake(0, 0, image.size.width, image.size.height / 2);
-    UIImage *cropped = [image croppedToRect:topHalf];
     
-    @synchronized(cache){
-        [cache setObject:cropped forKey:__request.URL.absoluteString];
+    if (image) {
+        
+        CGRect topHalf = CGRectMake(0, 0, image.size.width, image.size.height / 2);
+        UIImage *cropped = [image croppedToRect:topHalf];
+        
+        @synchronized(cache){
+            [cache setObject:cropped forKey:__request.URL.absoluteString];
+        }
+        
+        __imageBlock(cropped);
     }
-    
-    __imageBlock(cropped);
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
