@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "NMLoginViewController.h"
 
-@interface NMViewController : UIViewController
+@class NMTracksTableDataSource;
+
+@interface NMViewController : UIViewController<UITableViewDelegate>
+
+@property UITableView               *tableView;
+@property NMTracksTableDataSource   *dataSource;
 
 @end

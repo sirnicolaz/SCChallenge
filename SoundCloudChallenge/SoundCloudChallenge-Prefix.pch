@@ -12,6 +12,21 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import "NMModel.h"
+
+// Categories
     #import "UIView+Additions.h"
+    #import "NSData+JSON.h"
+    #import "NSDate+Formatting.h"
+    #import "UITableView+Operation.h"
+    #import "UIImage+Additions.h"
+
+// Soundcloud
     #import "SCUI.h"
+    #import "SCAPI.h"
+    #import "NMSoundCloudAPI.h"
+
+// Helpers
+    #import "NMMacro.h"
+
 #endif

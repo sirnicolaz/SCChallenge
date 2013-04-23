@@ -11,5 +11,6 @@
 @interface UIView (Additions)
 
 + (id)selfFromNib;
+- (void)fadeIn;
 
 @end

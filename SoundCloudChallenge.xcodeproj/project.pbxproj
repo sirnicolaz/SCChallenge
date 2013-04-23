@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		77035C6CC1F4495894A45362 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F8FB5104BC444285926F9B /* libPods.a */; };
+		D7597A0C1725C7DE00FE05AE /* NMTracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A0B1725C7DE00FE05AE /* NMTracksManager.m */; };
+		D7597A0D1725C7DE00FE05AE /* NMTracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A0B1725C7DE00FE05AE /* NMTracksManager.m */; };
+		D7597A101725C9F800FE05AE /* NMSoundCloudAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A0F1725C9F800FE05AE /* NMSoundCloudAPI.m */; };
+		D7597A111725C9F800FE05AE /* NMSoundCloudAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A0F1725C9F800FE05AE /* NMSoundCloudAPI.m */; };
+		D7597A141725D46B00FE05AE /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A131725D46B00FE05AE /* NSData+JSON.m */; };
+		D7597A151725D46B00FE05AE /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A131725D46B00FE05AE /* NSData+JSON.m */; };
+		D7597A181725D86000FE05AE /* NSDate+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A171725D86000FE05AE /* NSDate+Formatting.m */; };
+		D7597A191725D86000FE05AE /* NSDate+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A171725D86000FE05AE /* NSDate+Formatting.m */; };
+		D7597A201725E2BF00FE05AE /* NMTrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A1F1725E2BF00FE05AE /* NMTrackCell.m */; };
+		D7597A211725E2BF00FE05AE /* NMTrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A1F1725E2BF00FE05AE /* NMTrackCell.m */; };
+		D7597A231725E2D400FE05AE /* NMTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7597A221725E2D300FE05AE /* NMTrackCell.xib */; };
+		D7597A241725E2D400FE05AE /* NMTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7597A221725E2D300FE05AE /* NMTrackCell.xib */; };
+		D7597A271725E78B00FE05AE /* UITableView+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A261725E78B00FE05AE /* UITableView+Operation.m */; };
+		D7597A281725E78B00FE05AE /* UITableView+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A261725E78B00FE05AE /* UITableView+Operation.m */; };
+		D7597A2B1725EE7200FE05AE /* NMImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A2A1725EE7100FE05AE /* NMImageManager.m */; };
+		D7597A2C1725EE7200FE05AE /* NMImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A2A1725EE7100FE05AE /* NMImageManager.m */; };
+		D7597A2F1725F48C00FE05AE /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */; };
+		D7597A301725F48C00FE05AE /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */; };
 		D7C5064617202030008CFA14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064517202030008CFA14 /* UIKit.framework */; };
 		D7C5064817202030008CFA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064717202030008CFA14 /* Foundation.framework */; };
 		D7C5064A17202030008CFA14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5064917202030008CFA14 /* CoreGraphics.framework */; };
@@ -26,8 +44,6 @@
 		D7C5067717202031008CFA14 /* SoundCloudChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5067617202031008CFA14 /* SoundCloudChallengeTests.m */; };
 		D7C50685172023CC008CFA14 /* NMTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50684172023CC008CFA14 /* NMTrack.m */; };
 		D7C50686172023CC008CFA14 /* NMTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50684172023CC008CFA14 /* NMTrack.m */; };
-		D7C506891720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */; };
-		D7C5068A1720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */; };
 		D7C5075717245A52008CFA14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C5075617245A52008CFA14 /* CoreData.framework */; };
 		D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
 		D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C50759172460CB008CFA14 /* NMLoginViewController.m */; };
@@ -37,6 +53,8 @@
 		D7C5076617248472008CFA14 /* NMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C5076417248472008CFA14 /* NMLoginView.xib */; };
 		D7C5076C172484EA008CFA14 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076B172484EA008CFA14 /* UIView+Additions.m */; };
 		D7C5076D172484EA008CFA14 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076B172484EA008CFA14 /* UIView+Additions.m */; };
+		D7C50770172489FE008CFA14 /* NMTracksTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076F172489FE008CFA14 /* NMTracksTableDataSource.m */; };
+		D7C50771172489FE008CFA14 /* NMTracksTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5076F172489FE008CFA14 /* NMTracksTableDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +70,24 @@
 /* Begin PBXFileReference section */
 		43F8FB5104BC444285926F9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CB8ABBE40740FC862B0103 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D7597A0A1725C7DE00FE05AE /* NMTracksManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTracksManager.h; sourceTree = "<group>"; };
+		D7597A0B1725C7DE00FE05AE /* NMTracksManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTracksManager.m; sourceTree = "<group>"; };
+		D7597A0E1725C9F800FE05AE /* NMSoundCloudAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMSoundCloudAPI.h; sourceTree = "<group>"; };
+		D7597A0F1725C9F800FE05AE /* NMSoundCloudAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSoundCloudAPI.m; sourceTree = "<group>"; };
+		D7597A121725D46B00FE05AE /* NSData+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSON.h"; sourceTree = "<group>"; };
+		D7597A131725D46B00FE05AE /* NSData+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSON.m"; sourceTree = "<group>"; };
+		D7597A161725D86000FE05AE /* NSDate+Formatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatting.h"; sourceTree = "<group>"; };
+		D7597A171725D86000FE05AE /* NSDate+Formatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatting.m"; sourceTree = "<group>"; };
+		D7597A1A1725DEA700FE05AE /* NMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMModel.h; sourceTree = "<group>"; };
+		D7597A1E1725E2BF00FE05AE /* NMTrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTrackCell.h; sourceTree = "<group>"; };
+		D7597A1F1725E2BF00FE05AE /* NMTrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTrackCell.m; sourceTree = "<group>"; };
+		D7597A221725E2D300FE05AE /* NMTrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMTrackCell.xib; sourceTree = "<group>"; };
+		D7597A251725E78A00FE05AE /* UITableView+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Operation.h"; sourceTree = "<group>"; };
+		D7597A261725E78B00FE05AE /* UITableView+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Operation.m"; sourceTree = "<group>"; };
+		D7597A291725EE7100FE05AE /* NMImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMImageManager.h; sourceTree = "<group>"; };
+		D7597A2A1725EE7100FE05AE /* NMImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMImageManager.m; sourceTree = "<group>"; };
+		D7597A2D1725F48B00FE05AE /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		D7C5064217202030008CFA14 /* SoundCloudChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloudChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C5064517202030008CFA14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7C5064717202030008CFA14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,7 +112,6 @@
 		D7C5067617202031008CFA14 /* SoundCloudChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundCloudChallengeTests.m; sourceTree = "<group>"; };
 		D7C50683172023CC008CFA14 /* NMTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTrack.h; sourceTree = "<group>"; };
 		D7C50684172023CC008CFA14 /* NMTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTrack.m; sourceTree = "<group>"; };
-		D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundCloudChallenge.xcdatamodel; sourceTree = "<group>"; };
 		D7C5075617245A52008CFA14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D7C50758172460CB008CFA14 /* NMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLoginViewController.h; sourceTree = "<group>"; };
 		D7C50759172460CB008CFA14 /* NMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLoginViewController.m; sourceTree = "<group>"; };
@@ -86,6 +121,8 @@
 		D7C5076417248472008CFA14 /* NMLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMLoginView.xib; sourceTree = "<group>"; };
 		D7C5076A172484EA008CFA14 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		D7C5076B172484EA008CFA14 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		D7C5076E172489FD008CFA14 /* NMTracksTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTracksTableDataSource.h; sourceTree = "<group>"; };
+		D7C5076F172489FE008CFA14 /* NMTracksTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTracksTableDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +237,13 @@
 			children = (
 				D7C50683172023CC008CFA14 /* NMTrack.h */,
 				D7C50684172023CC008CFA14 /* NMTrack.m */,
-				D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */,
+				D7597A0A1725C7DE00FE05AE /* NMTracksManager.h */,
+				D7597A0B1725C7DE00FE05AE /* NMTracksManager.m */,
+				D7597A0E1725C9F800FE05AE /* NMSoundCloudAPI.h */,
+				D7597A0F1725C9F800FE05AE /* NMSoundCloudAPI.m */,
+				D7597A1A1725DEA700FE05AE /* NMModel.h */,
+				D7597A291725EE7100FE05AE /* NMImageManager.h */,
+				D7597A2A1725EE7100FE05AE /* NMImageManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -212,6 +255,9 @@
 				D7C507601724844A008CFA14 /* NMLoginView.h */,
 				D7C507611724844A008CFA14 /* NMLoginView.m */,
 				D7C5076417248472008CFA14 /* NMLoginView.xib */,
+				D7597A1E1725E2BF00FE05AE /* NMTrackCell.h */,
+				D7597A1F1725E2BF00FE05AE /* NMTrackCell.m */,
+				D7597A221725E2D300FE05AE /* NMTrackCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -223,6 +269,8 @@
 				D7C5065E17202031008CFA14 /* NMViewController.m */,
 				D7C50758172460CB008CFA14 /* NMLoginViewController.h */,
 				D7C50759172460CB008CFA14 /* NMLoginViewController.m */,
+				D7C5076E172489FD008CFA14 /* NMTracksTableDataSource.h */,
+				D7C5076F172489FE008CFA14 /* NMTracksTableDataSource.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -232,6 +280,14 @@
 			children = (
 				D7C5076A172484EA008CFA14 /* UIView+Additions.h */,
 				D7C5076B172484EA008CFA14 /* UIView+Additions.m */,
+				D7597A121725D46B00FE05AE /* NSData+JSON.h */,
+				D7597A131725D46B00FE05AE /* NSData+JSON.m */,
+				D7597A161725D86000FE05AE /* NSDate+Formatting.h */,
+				D7597A171725D86000FE05AE /* NSDate+Formatting.m */,
+				D7597A251725E78A00FE05AE /* UITableView+Operation.h */,
+				D7597A261725E78B00FE05AE /* UITableView+Operation.m */,
+				D7597A2D1725F48B00FE05AE /* UIImage+Additions.h */,
+				D7597A2E1725F48C00FE05AE /* UIImage+Additions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -315,6 +371,7 @@
 				D7C5065C17202031008CFA14 /* Default-568h@2x.png in Resources */,
 				D7C5066217202031008CFA14 /* NMViewController.xib in Resources */,
 				D7C5076517248472008CFA14 /* NMLoginView.xib in Resources */,
+				D7597A231725E2D400FE05AE /* NMTrackCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +381,7 @@
 			files = (
 				D7C5067417202031008CFA14 /* InfoPlist.strings in Resources */,
 				D7C5076617248472008CFA14 /* NMLoginView.xib in Resources */,
+				D7597A241725E2D400FE05AE /* NMTrackCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +426,18 @@
 				D7C5065617202031008CFA14 /* NMAppDelegate.m in Sources */,
 				D7C5065F17202031008CFA14 /* NMViewController.m in Sources */,
 				D7C50685172023CC008CFA14 /* NMTrack.m in Sources */,
-				D7C506891720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
 				D7C5075B172460CB008CFA14 /* NMLoginViewController.m in Sources */,
 				D7C507621724844A008CFA14 /* NMLoginView.m in Sources */,
 				D7C5076C172484EA008CFA14 /* UIView+Additions.m in Sources */,
+				D7C50770172489FE008CFA14 /* NMTracksTableDataSource.m in Sources */,
+				D7597A0C1725C7DE00FE05AE /* NMTracksManager.m in Sources */,
+				D7597A101725C9F800FE05AE /* NMSoundCloudAPI.m in Sources */,
+				D7597A141725D46B00FE05AE /* NSData+JSON.m in Sources */,
+				D7597A181725D86000FE05AE /* NSDate+Formatting.m in Sources */,
+				D7597A201725E2BF00FE05AE /* NMTrackCell.m in Sources */,
+				D7597A271725E78B00FE05AE /* UITableView+Operation.m in Sources */,
+				D7597A2B1725EE7200FE05AE /* NMImageManager.m in Sources */,
+				D7597A2F1725F48C00FE05AE /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,10 +447,18 @@
 			files = (
 				D7C5067717202031008CFA14 /* SoundCloudChallengeTests.m in Sources */,
 				D7C50686172023CC008CFA14 /* NMTrack.m in Sources */,
-				D7C5068A1720240B008CFA14 /* SoundCloudChallenge.xcdatamodeld in Sources */,
 				D7C5075C172460CB008CFA14 /* NMLoginViewController.m in Sources */,
 				D7C507631724844A008CFA14 /* NMLoginView.m in Sources */,
 				D7C5076D172484EA008CFA14 /* UIView+Additions.m in Sources */,
+				D7C50771172489FE008CFA14 /* NMTracksTableDataSource.m in Sources */,
+				D7597A0D1725C7DE00FE05AE /* NMTracksManager.m in Sources */,
+				D7597A111725C9F800FE05AE /* NMSoundCloudAPI.m in Sources */,
+				D7597A151725D46B00FE05AE /* NSData+JSON.m in Sources */,
+				D7597A191725D86000FE05AE /* NSDate+Formatting.m in Sources */,
+				D7597A211725E2BF00FE05AE /* NMTrackCell.m in Sources */,
+				D7597A281725E78B00FE05AE /* UITableView+Operation.m in Sources */,
+				D7597A2C1725EE7200FE05AE /* NMImageManager.m in Sources */,
+				D7597A301725F48C00FE05AE /* UIImage+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,19 +645,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D7C506871720240A008CFA14 /* SoundCloudChallenge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */,
-			);
-			currentVersion = D7C506881720240B008CFA14 /* SoundCloudChallenge.xcdatamodel */;
-			path = SoundCloudChallenge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D7C5063A17202030008CFA14 /* Project object */;
 }

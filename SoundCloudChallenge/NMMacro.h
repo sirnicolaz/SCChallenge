@@ -9,6 +9,7 @@
 #ifndef SoundCloudChallenge_NMMacro_h
 #define SoundCloudChallenge_NMMacro_h
 
-
+#define URL(string) [NSURL URLWithString:(string)]
+#define SCR_SIZE [[UIScreen mainScreen] bounds].size
 
 #endif

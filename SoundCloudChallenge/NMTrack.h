@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NMTrack : NSManagedObject
+@interface NMTrack : NSObject
+
+@property (assign) NSInteger identifier;
+
+@property NSString  *title;
+@property NSDate    *createdAt;
+@property NSURL     *waveFormURL;
 
 @end

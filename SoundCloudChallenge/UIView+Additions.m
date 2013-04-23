@@ -22,4 +22,19 @@
     return nil;
 }
 
+- (void)fadeIn
+{
+    
+    if (self.hidden) {
+        self.alpha = 0.0;
+        [UIView animateWithDuration:0.4
+                         animations:^{
+                             
+                             self.hidden = NO;
+                             self.alpha = 1.0;
+                         }];
+    }
+}
+
+
 @end

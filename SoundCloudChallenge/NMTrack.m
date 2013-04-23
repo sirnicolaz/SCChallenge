@@ -10,4 +10,6 @@
 
 @implementation NMTrack
 
+@synthesize identifier, title, createdAt, waveFormURL;
+
 @end
